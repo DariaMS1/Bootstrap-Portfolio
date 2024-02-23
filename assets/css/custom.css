@@ -1,0 +1,99 @@
+.background-image {
+    background-image: url('../images/white-concrete-wall_53876-92803.avif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(50vh - 25px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid black 6px;
+}
+
+.link:hover {
+    background-color: rgba(234, 237, 237, 0.655);
+    border-radius: 10%;
+}
+
+.link-dropdown:hover {
+    width: 90%;
+    margin-left: 5%
+}
+
+h1 {
+    background: rgba(255, 255, 255, 0.47);
+    margin-top: 250px;
+    width: 27%;
+}
+
+#parent-hero-face {
+    position: relative;
+}
+
+.hero-face {
+    position: absolute;
+    right: 15px;
+    top: 55px;
+    border-radius: 2%;
+    /* background-image: url(./assets/images/random-person.jpg); */
+}
+
+.img-height-limit {
+    max-height: 200px;
+}
+
+.truncate-height {
+    max-height: 100px;
+    overflow-y: hidden;
+}
+
+.skills-img-height-limit {
+    max-height: 100px;
+}
+
+.footer-list {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-size: smaller;
+}
+
+.footer-list a {
+    text-decoration: none;
+}
+
+.footer-text {
+    color: grey;
+}
+
+/* small screens */
+@media screen and (max-width: 768px) {
+    h1 {
+        display: none;
+    }
+
+    .hero-face {
+        position: inherit;
+        display: block;
+        margin: auto;
+        top: 50%;  
+    }
+}
+
+@media screen and (min-width: 769px, max-width: ) {
+    h1 {
+        position: left;
+        margin-bottom: 100px;
+    }
+
+    .hero-face {
+        position: absolute;
+        align-items: flex-end;
+        top: 143px;
+    }
+}
+
+@media screen and (max-width: 339px) {
+    .hero-face {
+        display: none;
+    }
+}
