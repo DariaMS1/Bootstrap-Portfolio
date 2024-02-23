@@ -34,7 +34,16 @@ h1 {
     right: 15px;
     top: 55px;
     border-radius: 2%;
-    /* background-image: url(./assets/images/random-person.jpg); */
+}
+
+.border-line {
+    border-bottom: 2px solid rgba(218, 218, 218, 0.806);
+    max-width: 90%;
+    margin-left: 5%;
+}
+
+.padding-bottom {
+    padding-bottom: 1%;
 }
 
 .img-height-limit {
