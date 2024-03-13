@@ -17,7 +17,7 @@ Simply click on the Navbar to navigate across the site, or scroll and explore.
 
 ## Credits
 
-Github link: https://github.com/DariaMS1
+GitHub link: https://github.com/DariaMS1
 
 Tutorials:
     Media Queries:
