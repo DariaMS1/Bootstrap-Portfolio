@@ -21,9 +21,7 @@
 }
 
 h1 {
-    background: rgba(255, 255, 255, 0.47);
     margin-top: 250px;
-    width: 27%;
 }
 
 #parent-hero-face {
@@ -64,6 +62,9 @@ h1 {
     max-height: 70px;
 }
 
+
+/* footer */
+
 .footer-list {
     display: flex;
     justify-content: space-evenly;
@@ -75,10 +76,6 @@ h1 {
     text-decoration: none;
     color: grey;
     padding: 10%;
-}
-
-.inline {
-    display: flex;
 }
 
 /* small screens */
@@ -95,10 +92,9 @@ h1 {
     }
 }
 
-@media screen and (min-width: 769px, max-width: ) {
+@media screen and (min-width: 769px) {
     h1 {
         position: left;
-        margin-bottom: 100px;
     }
 
     .hero-face {
@@ -108,8 +104,14 @@ h1 {
     }
 }
 
-@media screen and (max-width: 339px) {
+@media screen and (max-width: 375px) {
     .hero-face {
         display: none;
+    }
+    .background-image {
+        display: none;
+    }
+    nav {
+        border-bottom: 3px solid rgba(91, 91, 91, 0.553);
     }
 }
