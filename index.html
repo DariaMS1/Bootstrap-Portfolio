@@ -15,7 +15,7 @@
     <header>
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-          <a class="navbar-brand fs-3 fw-normal" href="#">Daria's App Portfolio</a>
+          <a class="navbar-brand fs-3 fw-normal" href="#Home">Daria's App Portfolio</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -35,7 +35,7 @@
                   More
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item link link-dropdown" href="#Work">Work</a></li>
+                  <li><a class="dropdown-item link link-dropdown" href="#Projects">Projects</a></li>
                   <li><a class="dropdown-item link link-dropdown" href="#Experience">Experience</a></li>
                   <li><a class="dropdown-item link link-dropdown" href="#Contact">Contact</a></li>
                 </ul>
@@ -50,7 +50,7 @@
         <div class="p-5 mb-4 bg-body-tertiary rounded-3 bg-light background-image">
           <div class="container-fluid py-5 jumboCopy " id="parent-hero-face">
             <h1 class="display-5 fw-semibold border border-secondary-subtle border-2 rounded">Have a look below!</h1>
-            <img class="hero-face rounded-circle border-dark border border-black border-2" src="./assets/images/random-person.jpg" title="not picture of me" alt="very pretty girl"/>
+            <a href="#About"><img class="hero-face rounded-circle border-dark border border-black border-2" src="./assets/images/random-person.jpg" title="not picture of me" alt="very pretty girl"/></a>
           </div>
         </div>
 
@@ -150,37 +150,34 @@
                   </div>
                 </div>
               </div>
-
-              <!-- div to add a border at the bottom for styling -->
-              <!-- <div class="border-line"></div> -->
         </main>
 
         <!-- Skills section for employers/commissioners -->
-        <h3 class="d-flex justify-content-center border-line padding-bottom">Skills</h3>
+
+        <h3 class="d-flex justify-content-center border-line padding-bottom padding-top">Skills</h3>
         <br>
-        <div class="container-fluid d-flex justify-content-evenly">
-          <!-- <div class="d-flex justify-content-evenly"> -->
-            <div class="">
+        <div class="container-fluid d-flex justify-content-evenly pb-4">
+            <div>
               <div class="card" style="width: 18rem;">
-                <img src="./assets//images/html-icon.webp" class="card-img-top object-fit-scale border rounded skills-img-height-limit" alt="HTML icon">
+                <img src="./assets//images/html-icon.webp" class="card-img-top object-fit-scale rounded skills-img-height-limit pt-4" alt="HTML icon">
                 <div class="card-body">
                   <h5 class="card-text text-center">HTML</h5>
                 </div>
               </div>
             </div>
 
-            <div class="">
+            <div>
               <div class="card" style="width: 18rem;">
-                <img src="./assets/images/CSS3_logo_and_wordmark.svg.png" class="card-img-top object-fit-scale border rounded skills-img-height-limit" alt="CSS icon">
+                <img src="./assets/images/CSS3_logo_and_wordmark.svg.png" class="card-img-top object-fit-scale rounded skills-img-height-limit pt-4" alt="CSS icon">
                 <div class="card-body">
                   <h5 class="card-text text-center">CSS</h5>
                 </div>
               </div>
             </div>
 
-            <div class="">
+            <div>
               <div class="card" style="width: 18rem;">
-                <img src="./assets/images/Bootstrap_logo.svg.png" class="card-img-top object-fit-scale border rounded skills-img-height-limit" alt="Bootstrap icon">
+                <img src="./assets/images/Bootstrap_logo.svg.png" class="card-img-top object-fit-scale rounded skills-img-height-limit pt-4" alt="Bootstrap icon">
                 <div class="card-body">
                   <h5 class="card-text text-center">Bootstrap</h5>
                 </div>
@@ -189,21 +186,34 @@
           </div>
         </div>
 
+        <!-- links to find most important info -->
+        
+        <footer class="footer mt-auto py-3 bg-light">
+          <div class="container">
+            <span class="text-muted">
+              <ul class="footer-list">
+                <li><a class="link" href="#About">About</a></li>
+                <li><a class="link" href="#Experience">Experience</a></li>
+                <li class="inline">
+                  <a class="link ms-5" href="#Contact">Contact</a>
+                  <a class="link" href="#LinkedIn">
+                    <i class="fa-brands fa-linkedin"></i>
+                  </a>
+                  <a class="link" href="https://github.com/DariaMS1">
+                    <i class="fa-brands fa-github"></i>
+                  </a>
+                </li>
+              </ul>
+            </span>
+          </div>
+        </footer>
+
         <!-- script for navbar dropdown menu to work (couldn't find how to do otherwise) -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <!-- fontawesome -->
+        <script src="https://kit.fontawesome.com/fcfba6f8d5.js" crossorigin="anonymous"></script>
     </body>
 
-    <!-- links to find most important info -->
-    <footer class="footer mt-auto py-3 bg-light">
-      <div class="container">
-        <span class="text-muted">
-          <ul class="footer-list">
-            <li><a class="link footer-text" href="#experience">About</a></li>
-            <li><a class="link footer-text" href="#highlights">Experience</a></li>
-            <li><a class="link footer-text" href="#contact">Contact</a></li>
-          </ul>
-        </span>
-      </div>
-    </footer>
+    
 
 </html>

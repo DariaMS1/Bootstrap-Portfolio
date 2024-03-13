@@ -12,6 +12,7 @@
 .link:hover {
     background-color: rgba(234, 237, 237, 0.655);
     border-radius: 10%;
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.5);
 }
 
 .link-dropdown:hover {
@@ -46,6 +47,10 @@ h1 {
     padding-bottom: 1%;
 }
 
+.padding-top {
+    padding-top: 1%;
+}
+
 .img-height-limit {
     max-height: 200px;
 }
@@ -56,22 +61,24 @@ h1 {
 }
 
 .skills-img-height-limit {
-    max-height: 100px;
+    max-height: 70px;
 }
 
 .footer-list {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     list-style: none;
     font-size: smaller;
 }
 
 .footer-list a {
     text-decoration: none;
+    color: grey;
+    padding: 10%;
 }
 
-.footer-text {
-    color: grey;
+.inline {
+    display: flex;
 }
 
 /* small screens */
