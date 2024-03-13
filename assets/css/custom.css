@@ -58,8 +58,6 @@ h1 {
     border-radius: 2%;
 }
 
-/* about me/contact */
-
 
 /* projects content */
 .img-height-limit {
@@ -111,7 +109,6 @@ h1 {
     .hero-face {
         position: absolute;
         align-items: flex-end;
-        top: 143px;
     }
 }
 
