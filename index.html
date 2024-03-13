@@ -47,7 +47,8 @@
     </header>
 
     <body>
-        <div class="p-5 mb-4 bg-body-tertiary rounded-3 bg-light background-image">
+        <!-- hero section -->
+        <div class="p-5 mb-4 bg-body-tertiary rounded-3 background-image">
           <div class="container-fluid py-5 jumboCopy " id="parent-hero-face">
             <h1 class="display-5 fw-semibold">Have a look below!</h1>
             <a href="#About">
@@ -56,32 +57,31 @@
           </div>
         </div>
 
-        <main>
-
-            <!-- about/contact section -->
-            <div class="container d-flex justify-content-center pb-3">
-              <div class="col-8 p-3" id="About">
-                <h3 class="d-flex justify-content-center border-line pb-2">About Me</h3>
-                <br>
-                <div class="col-9 container d-flex justify-content-center pt-2">
-                  <p class="col-6">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint impedit velit, nostrum expedita unde recusandae, tempora iste voluptatem ullam incidunt ipsam nihil id saepe distinctio placeat alias. Officia, obcaecati saepe. Totam eligendi illo aut enim incidunt unde corporis dolorum, ratione quisquam rem numquam eius officia in recusandae deserunt, molestiae aperiam quo consequuntur.</p>
-                  <p class="col-6">Laudantium, eveniet a fugiat animi libero quam eum accusantium repellendus velit, voluptatum vitae ipsa necessitatibus quis esse. Nesciunt tempore veritatis quae repudiandae! Fugit numquam eos blanditiis doloremque qui, harum atque quidem eius accusantium expedita animi quam ut, eveniet inventore asperiores itaque debitis earum possimus.</p>
-                </div>
-              </div>
-
-              <div class="col-4 p-3" id="Contact">
-                <h3 class="d-flex justify-content-center border-line pb-2">Contact</h3>
-                <br>
-                <div class="mx-auto ps-4 border-line pb-3" style="width: 200px;">
-                  <p class="p-2">Github: 
-                    <a class="link" href="https://github.com/DariaMS1">DariaMS1</a>
-                  </p>
-                  <p class="p-2">Email: <span class="text-secondary">darias2002@gmail.com</span></p>
-                  <p class="p-2">Phone: <span class="text-secondary">07000 000000</span></p>
-                </div>
+        <!-- about/contact section -->
+        <div class="container d-flex justify-content-center pb-3">
+          <div class="col-8 p-3" id="About">
+            <h3 class="d-flex justify-content-center border-line pb-2">About Me</h3>
+              <br>
+              <div class="col-9 container d-flex justify-content-center pt-2">
+                <p class="col-6">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint impedit velit, nostrum expedita unde recusandae, tempora iste voluptatem ullam incidunt ipsam nihil id saepe distinctio placeat alias. Officia, obcaecati saepe. Totam eligendi illo aut enim incidunt unde corporis dolorum, ratione quisquam rem numquam eius officia in recusandae deserunt, molestiae aperiam quo consequuntur.</p>
+                <p class="col-6">Laudantium, eveniet a fugiat animi libero quam eum accusantium repellendus velit, voluptatum vitae ipsa necessitatibus quis esse. Nesciunt tempore veritatis quae repudiandae! Fugit numquam eos blanditiis doloremque qui, harum atque quidem eius accusantium expedita animi quam ut, eveniet inventore asperiores itaque debitis earum possimus.</p>
               </div>
             </div>
 
+            <div class="col-4 p-3" id="Contact">
+              <h3 class="d-flex justify-content-center border-line pb-2">Contact</h3>
+              <br>
+              <div class="mx-auto ps-4 border-line pb-3" style="width: 200px;">
+                <p class="p-2">Github: 
+                  <a class="link" href="https://github.com/DariaMS1">DariaMS1</a>
+                </p>
+                <p class="p-2">Email: <span class="text-secondary">darias2002@gmail.com</span></p>
+                <p class="p-2">Phone: <span class="text-secondary">07000 000000</span></p>
+              </div>
+            </div>
+          </div>
+
+        <main class="bg-light pb-5">
             <!-- projects section -->
             <div class="album py-5 bg-light" id="Projects">
               <h3 class="d-flex justify-content-center border-line pb-3">Projects</h3>
@@ -177,6 +177,47 @@
 
                   </div>
                 </div>
+              </div>
+
+              <!-- highlights carousel -->
+              <br id="Highlights"> <!-- added the link on a <br> so the entire carousel is on the page when clicking on navbar -->
+              <div id="carouselExampleCaptions" class="carousel slide container-fluid col-6 bg-white border border-dark-subtle">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="/assets/images/9f7b60a6382a3a7ca1787a36bdadd5f1.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block bg-shadow">
+                      <h5>Project Highlighted 1</h5>
+                      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/assets/images/white-concrete-wall_53876-92803.avif" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block bg-shadow">
+                      <h5>Project Highlighted 2</h5>
+                      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/assets/images/seamless-white-leather-texture-thumb30.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block bg-shadow">
+                      <h5>Project Highlighted 3</h5>
+                      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
               </div>
         </main>
 
