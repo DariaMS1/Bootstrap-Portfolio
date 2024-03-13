@@ -2,29 +2,18 @@
 
 ## Description
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
-
-## Table of Contents (Optional)
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
+Motivation for the project was to build an easy-to-read website that displays relevant information to a potential employer.
+The project was built to develop Bootstrap understanding and it's implementation alongside CSS as this allows faster website development.
+I learned good quantities of Bootstrap and CSS, as well as specificity, limitations and div impact.
 
 ## Installation
 
 Click on the link provided. No installation needed.
 
+
 ## Usage
 
 Simply click on the Navbar to navigate across the site, or scroll and explore.
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
 
 ## Credits
 
