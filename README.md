@@ -6,10 +6,14 @@ Motivation for the project was to build an easy-to-read website that displays re
 The project was built to develop Bootstrap understanding and it's implementation alongside CSS as this allows faster website development.
 I learned good quantities of Bootstrap and CSS, as well as specificity, limitations and div impact.
 
+Below's a screenshot of the site:
+
+![Screenshot of the top of the portfolio page](/assets/images/Screenshot%202024-03-14%20192412.png "Opening page")
+
 ## Installation
 
 Click on the link provided. No installation needed.
-
+https://dariams1.github.io/Bootstrap-Portfolio/ 
 
 ## Usage
 
