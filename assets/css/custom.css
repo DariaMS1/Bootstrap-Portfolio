@@ -73,9 +73,9 @@ h1 {
     max-height: 70px;
 }
 
-.skills-wrap {
-    display: flex;
-    flex-wrap: wrap;
+.content-wrap {
+    display: flex !important;
+    flex-wrap: wrap !important;
 }
 
 /* highlight carousel */
