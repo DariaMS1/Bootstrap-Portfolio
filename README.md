@@ -23,7 +23,7 @@ Simply click on the Navbar to navigate across the site, or scroll and explore.
 
 GitHub link: https://github.com/DariaMS1
 
-Tutorials
+### Tutorials
 Media Queries:
 https://www.youtube.com/watch?v=5xzaGSYd7jM
 
